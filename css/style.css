@@ -1,0 +1,27 @@
+#slider {
+  width: 1280px;
+  margin: auto;
+  height: 700px;
+  overflow: hidden;
+  position: relative;
+}
+#slider .buttons {
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  display: flex;
+  justify-content: space-between;
+}
+#slider .sliderItems {
+  display: flex;
+}
+#slider .sliderItems .sliderItem {
+  height: 100%;
+  transition: 0.5s ease-in-out;
+}
+#slider .sliderItems .sliderItem img {
+  width: 1280px;
+  height: 100%;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,25 @@
+#slider {
+    width: 1280px;
+    margin: auto;
+    height: 700px;
+    overflow: hidden;
+    position: relative;
+    .buttons{
+        width: 100%;
+        position: absolute;
+        top: 50%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .sliderItems {
+        display: flex;
+        .sliderItem {
+            height: 100%;
+            transition: 0.5s ease-in-out;
+            img {
+                width: 1280px;
+                height: 100%;
+            }
+        }
+    }
+}
